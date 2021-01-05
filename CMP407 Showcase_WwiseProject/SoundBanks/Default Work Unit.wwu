@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{10ABE060-C892-4983-8807-A52BF943DA99}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{10ABE060-C892-4983-8807-A52BF943DA99}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{82F0B130-BA62-43F9-BDD3-405C6BB0B30F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GunSound" ID="{09F65545-98AF-4285-950B-E1A14D516EB6}" WorkUnitID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="beep" ID="{E815CE54-C796-4753-BA67-E4074B350961}" WorkUnitID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{305D6545-42D3-4A34-BAEE-CE5BE0B2B4B7}" WorkUnitID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{2A89E864-ED17-4E7B-A27E-F8A514A95D24}" WorkUnitID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

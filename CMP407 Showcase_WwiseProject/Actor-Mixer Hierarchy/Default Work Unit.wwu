@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B29C680-7526-41C3-A356-9B7D54C9D294}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2B29C680-7526-41C3-A356-9B7D54C9D294}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="baaaack it up" ID="{CFD290F6-05F6-494F-B497-FFB80025DC9C}" ShortID="720136240">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SmallFrequent" ID="{F769CC18-AE39-4911-B04E-E3EC574E2F9E}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="baaaack it up" ID="{8685ED12-78A2-4751-B4F0-6C7FB44C2C98}">
+							<Language>SFX</Language>
+							<AudioFile>baaaack it up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="872131484"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="baaaack it up" ID="{8685ED12-78A2-4751-B4F0-6C7FB44C2C98}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<SwitchContainer Name="Footsteps" ID="{3F7BB9C3-305D-481D-B7D2-E5DD501D0452}" ShortID="881513816">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BDAD3E8C-DF33-4434-BC92-DCA69840FBE8}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SmallFrequent" ID="{F769CC18-AE39-4911-B04E-E3EC574E2F9E}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Grass" ID="{522ADDEC-704D-4F1A-B988-BE8E677A6072}" WorkUnitID="{22358B9A-8C32-4011-9A09-1C76FAE2F3A0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Footsteps" ID="{3A10944B-3B4F-485B-92AE-B5501159C828}" WorkUnitID="{22358B9A-8C32-4011-9A09-1C76FAE2F3A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Slime" ID="{6FF0F237-73E4-4B37-8100-DE620F0F3064}" ShortID="771602948">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{60B2B50A-5383-41A7-A90A-ECF5839833EA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="step_in_slime" ID="{9CF1FBE2-D195-430F-8435-78CFBC29B51F}">
+									<Language>SFX</Language>
+									<AudioFile>step_in_slime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="450088547"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="step_in_slime" ID="{9CF1FBE2-D195-430F-8435-78CFBC29B51F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="Grass" ID="{8B05D8B5-39B2-4A21-A33F-07C161D38F3A}" ShortID="1031482341">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0167AB9C-CDF8-49BB-9DB9-79F0406E5FE5}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plonk" ID="{4D8FC2D6-B1F2-4F75-B0D9-DFE7BD7AC27A}" ShortID="185941789">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-26</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{29A60E36-0D2E-49FF-A373-D364455D1175}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="22"/>
+															<Property Name="Min" Type="Real64" Value="-19"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps1" ID="{6BB26E1F-7D72-4BEA-AAC7-A58D940D0EC7}">
+											<Language>SFX</Language>
+											<AudioFile>footsteps1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576961732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps1" ID="{6BB26E1F-7D72-4BEA-AAC7-A58D940D0EC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="toast_crunch" ID="{E1148384-5E8D-4883-9787-74EC5645C8F1}" ShortID="605952766">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{82245E60-7593-48DA-BB5A-264C04455C55}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="toast_crunch" ID="{51E8566D-442A-4E71-A9AC-16B94ACFBDE0}">
+											<Language>SFX</Language>
+											<AudioFile>toast_crunch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="530969690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="toast_crunch" ID="{51E8566D-442A-4E71-A9AC-16B94ACFBDE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Water" ID="{481CCB99-EED7-43E2-BCDE-FC04144175B3}" ShortID="1058115563">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="splishsplash" ID="{04EAACD4-BF65-428F-AB99-30818D6C2EEB}" ShortID="957359628">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E7021D30-F2EF-46A1-8D43-987C4A0C8E5D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="480"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{72EC1674-2D5D-4FE8-BC27-7C4DB30C968B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="splishsplash" ID="{A6B07B08-6EF9-41D3-8EF9-1EE1E4A8D786}">
+											<Language>SFX</Language>
+											<AudioFile>splishsplash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21318143"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="splishsplash" ID="{A6B07B08-6EF9-41D3-8EF9-1EE1E4A8D786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="splashsplash2" ID="{C90FF486-EBA6-4D6C-912F-3631949BA735}" ShortID="616318259">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A418791B-FB75-4B00-B81A-73A0E09A009D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="429"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3DA8E09F-121D-498E-B1E6-6D77DE97409C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="splashsplash2" ID="{88681D1E-15D5-43C2-A3E2-BB8D9233721B}">
+											<Language>SFX</Language>
+											<AudioFile>splashsplash2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="368034323"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="splashsplash2" ID="{88681D1E-15D5-43C2-A3E2-BB8D9233721B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="splishsplash3" ID="{ADB7B824-D9D2-4B67-A885-93A55D5C0BE0}" ShortID="521972106">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A1E1FC18-AB07-4CCF-BD92-683614F8558C}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E3C1EA29-A088-4197-A1C8-9BEDEA3E61D1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="455"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B9719ADC-8887-4F23-8395-31E43A8E5E5B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="splishsplash3" ID="{718E7430-E3B0-4DB6-8BA5-9C79C40079AC}">
+											<Language>SFX</Language>
+											<AudioFile>splishsplash3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="956594088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="splishsplash3" ID="{718E7430-E3B0-4DB6-8BA5-9C79C40079AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="hellstone" ID="{7A69C211-B89A-4374-B161-378A04440767}" ShortID="220065254">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A21A7309-BEC2-47E4-A049-4FCF7BE2B1CD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hellstone" ID="{9FD6C3F8-BD68-4127-97A2-ED852F039CDD}">
+									<Language>SFX</Language>
+									<AudioFile>hellstone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1053213914"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hellstone" ID="{9FD6C3F8-BD68-4127-97A2-ED852F039CDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="hellstone" ID="{7A69C211-B89A-4374-B161-378A04440767}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Slime" ID="{6FF0F237-73E4-4B37-8100-DE620F0F3064}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Water" ID="{481CCB99-EED7-43E2-BCDE-FC04144175B3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Grass" ID="{8B05D8B5-39B2-4A21-A33F-07C161D38F3A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Hellstone" ID="{666FDB1A-53EA-4CC9-AD7F-0C05221EC9EA}"/>
+								<ItemList>
+									<ItemRef Name="hellstone" ID="{7A69C211-B89A-4374-B161-378A04440767}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{BD482241-BDC2-430D-A2A6-CC5DD5DEEB65}"/>
+								<ItemList>
+									<ItemRef Name="Water" ID="{481CCB99-EED7-43E2-BCDE-FC04144175B3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Slime" ID="{4CC295BA-806D-4DEB-BB8B-D1FF5AE5DF8F}"/>
+								<ItemList>
+									<ItemRef Name="Slime" ID="{6FF0F237-73E4-4B37-8100-DE620F0F3064}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{522ADDEC-704D-4F1A-B988-BE8E677A6072}"/>
+								<ItemList>
+									<ItemRef Name="Grass" ID="{8B05D8B5-39B2-4A21-A33F-07C161D38F3A}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="GunSound" ID="{58E63278-80E3-46CA-86C9-9B1E04E34C5F}" ShortID="539837911">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SmallFrequent" ID="{F769CC18-AE39-4911-B04E-E3EC574E2F9E}" WorkUnitID="{DF47B97E-2ABA-427C-8A6F-FA083E297244}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{523F23F4-2402-49B1-8943-03DEED50D5F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GunSound" ID="{FC500772-FAD6-4E69-B324-23D9708D585F}">
+							<Language>SFX</Language>
+							<AudioFile>GunSound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="335966540"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GunSound" ID="{FC500772-FAD6-4E69-B324-23D9708D585F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

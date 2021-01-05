@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{23AA45C8-BACC-41F8-970F-692F5B234552}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{23AA45C8-BACC-41F8-970F-692F5B234552}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="AreaOfMap" ID="{FAF0897F-5B8A-4775-B1E5-EE47AB4918C2}">
+					<ChildrenList>
+						<State Name="None" ID="{3333347D-A2EA-4867-9708-1B12DDF73AFE}"/>
+						<State Name="Ocean" ID="{C9A577AC-C5B9-4842-9ACD-41ACE589FDEF}"/>
+						<State Name="Twinkleland" ID="{495C1F71-F29C-4D34-BBAB-97F4C86A2E7B}"/>
+						<State Name="Hell" ID="{E6540FED-7230-430E-BAC6-E6837BD19868}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

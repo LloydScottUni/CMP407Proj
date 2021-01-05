@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2294744880">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3446641549">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1123068841" Name="beep" ObjectPath="\Events\Default Work Unit\beep" DurationType="OneShot" DurationMin="0.348299" DurationMax="0.348299">
+					<IncludedMemoryFiles>
+						<File Id="872131484" Language="SFX">
+							<ShortName>baaaack it up.wav</ShortName>
+							<Path>SFX\baaaack it up_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="OneShot" DurationMin="0.226757" DurationMax="1.300317">
+					<IncludedMemoryFiles>
+						<File Id="21318143" Language="SFX">
+							<ShortName>splishsplash.wav</ShortName>
+							<Path>SFX\splishsplash_3F75BDB9.wem</Path>
+						</File>
+						<File Id="368034323" Language="SFX">
+							<ShortName>splashsplash2.wav</ShortName>
+							<Path>SFX\splashsplash2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="450088547" Language="SFX">
+							<ShortName>step_in_slime.wav</ShortName>
+							<Path>SFX\step_in_slime_3F75BDB9.wem</Path>
+						</File>
+						<File Id="530969690" Language="SFX">
+							<ShortName>toast_crunch.wav</ShortName>
+							<Path>SFX\toast_crunch_3F75BDB9.wem</Path>
+						</File>
+						<File Id="576961732" Language="SFX">
+							<ShortName>footsteps1.wav</ShortName>
+							<Path>SFX\footsteps1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="956594088" Language="SFX">
+							<ShortName>splishsplash3.wav</ShortName>
+							<Path>SFX\splishsplash3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1053213914" Language="SFX">
+							<ShortName>hellstone.wav</ShortName>
+							<Path>SFX\hellstone_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{522ADDEC-704D-4F1A-B988-BE8E677A6072}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4CC295BA-806D-4DEB-BB8B-D1FF5AE5DF8F}">
+							<Media>
+								<File Id="450088547"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{522ADDEC-704D-4F1A-B988-BE8E677A6072}">
+							<Media>
+								<File Id="530969690"/>
+								<File Id="576961732"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BD482241-BDC2-430D-A2A6-CC5DD5DEEB65}">
+							<Media>
+								<File Id="21318143"/>
+								<File Id="368034323"/>
+								<File Id="956594088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{666FDB1A-53EA-4CC9-AD7F-0C05221EC9EA}">
+							<Media>
+								<File Id="1053213914"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3081681566" Name="GunSound" ObjectPath="\Events\Default Work Unit\GunSound" DurationType="OneShot" DurationMin="0.392993" DurationMax="0.392993">
+					<IncludedMemoryFiles>
+						<File Id="335966540" Language="SFX">
+							<ShortName>GunSound.wav</ShortName>
+							<Path>SFX\GunSound_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="51073327" Language="SFX">
+							<ShortName>Hell.wav</ShortName>
+							<Path>SFX\Hell_D79FB2B7.wem</Path>
+						</File>
+						<File Id="214961780" Language="SFX">
+							<ShortName>pretty_twinkles.wav</ShortName>
+							<Path>SFX\pretty_twinkles_D79FB2B7.wem</Path>
+						</File>
+						<File Id="636237040" Language="SFX">
+							<ShortName>Underwater.wav</ShortName>
+							<Path>SFX\Underwater_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{495C1F71-F29C-4D34-BBAB-97F4C86A2E7B}">
+							<Media>
+								<File Id="214961780"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C9A577AC-C5B9-4842-9ACD-41ACE589FDEF}">
+							<Media>
+								<File Id="636237040"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E6540FED-7230-430E-BAC6-E6837BD19868}">
+							<Media>
+								<File Id="51073327"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1050300945" Name="AreaOfMap" ObjectPath="\States\Default Work Unit\AreaOfMap">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\AreaOfMap\None"/>
+						<State Id="3802555985" Name="Ocean" ObjectPath="\States\Default Work Unit\AreaOfMap\Ocean"/>
+						<State Id="3245747868" Name="Twinkleland" ObjectPath="\States\Default Work Unit\AreaOfMap\Twinkleland"/>
+						<State Id="3632828376" Name="Hell" ObjectPath="\States\Default Work Unit\AreaOfMap\Hell"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Grass"/>
+						<Switch Id="3803999823" Name="Slime" ObjectPath="\Switches\Default Work Unit\Footsteps\Slime"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Footsteps\Water"/>
+						<Switch Id="874135407" Name="Hellstone" ObjectPath="\Switches\Default Work Unit\Footsteps\Hellstone"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

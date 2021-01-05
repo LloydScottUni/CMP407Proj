@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{80876308-3871-41EA-81E9-526F3FAEF8F2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{305D6545-42D3-4A34-BAEE-CE5BE0B2B4B7}">
+					<ChildrenList>
+						<Action Name="" ID="{C2CA082D-10CA-4EE5-9370-3A976EC7D66A}" ShortID="368756389">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{3F7BB9C3-305D-481D-B7D2-E5DD501D0452}" WorkUnitID="{2B29C680-7526-41C3-A356-9B7D54C9D294}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="beep" ID="{E815CE54-C796-4753-BA67-E4074B350961}">
+					<ChildrenList>
+						<Action Name="" ID="{44E80DAC-0036-4C88-B1F1-110038E2B6FC}" ShortID="962078722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="baaaack it up" ID="{CFD290F6-05F6-494F-B497-FFB80025DC9C}" WorkUnitID="{2B29C680-7526-41C3-A356-9B7D54C9D294}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music" ID="{2A89E864-ED17-4E7B-A27E-F8A514A95D24}">
+					<ChildrenList>
+						<Action Name="" ID="{AD7D7515-22E4-420C-91DE-02481624C5F0}" ShortID="499142836">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environments" ID="{DAA2B433-9FC1-447E-BE02-F7280D1C0A9E}" WorkUnitID="{1963006A-FCF5-4187-934D-793533C7B1E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GunSound" ID="{09F65545-98AF-4285-950B-E1A14D516EB6}">
+					<ChildrenList>
+						<Action Name="" ID="{19AEF150-ABA7-4861-9413-203E63F60304}" ShortID="107978173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GunSound" ID="{58E63278-80E3-46CA-86C9-9B1E04E34C5F}" WorkUnitID="{2B29C680-7526-41C3-A356-9B7D54C9D294}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

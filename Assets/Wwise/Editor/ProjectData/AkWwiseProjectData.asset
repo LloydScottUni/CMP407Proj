@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ae800e1c45ade46a3a8be730249575, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c7d4d136173b814a9dc84987e2ce43b3
+    GuidInternal: 
+    m_lastTime: -8585935720000645066
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f4233f520224b149894303deed50d5f6
+    GuidInternal: 
+    m_lastTime: -8585935720001065097
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 60e0ab1092c883498807a52bf943da99
+    GuidInternal: 
+    m_lastTime: -8585917234900682345
+    List:
+    - name: Main
+      guid: 30b1f08262baf943bdd3405c6bb0b30f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 086387807138ea4181e9526f3faef8f2
+    GuidInternal: 
+    m_lastTime: -8585917235092627974
+    List:
+    - name: beep
+      guid: 54ce15e896c75347ba67e4074b350961
+      id: 1123068841
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: beep
+        ObjectType: 3
+      Path: Default Work Unit\beep
+      maxAttenuation: 0
+      maxDuration: 0.348299
+      minDuration: 0.348299
+    - name: Footsteps
+      guid: 45655d30d342344abaeece5be0b2b4b7
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: 1.300317
+      minDuration: 0.226757
+    - name: GunSound
+      guid: 4555f609af988542950be1a14d516eb6
+      id: 3081681566
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GunSound
+        ObjectType: 3
+      Path: Default Work Unit\GunSound
+      maxAttenuation: 0
+      maxDuration: 0.392993
+      minDuration: 0.392993
+    - name: Music
+      guid: 64e8892a17ed7b4ea27ef8a514a95d24
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a1fafe4b5bd91743ac666d1fae9af65e
+    GuidInternal: 
+    m_lastTime: -8585935720000925066
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c845aa23ccbaf841970f692f5b234552
+    GuidInternal: 
+    m_lastTime: -8585935108173250190
+    List:
+    - name: AreaOfMap
+      guid: 7f89f0fa8a5b7547b1e5ee47ab4918c2
+      id: 1050300945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AreaOfMap
+        ObjectType: 9
+      Path: Default Work Unit\AreaOfMap
+      values:
+      - name: Hell
+        guid: ed0f54e630720e43bac6e6837bd19868
+        id: 3632828376
+        PathAndIcons:
+        - ElementName: Hell
+          ObjectType: 8
+      - name: None
+        guid: 7d343333eaa2674897081b12ddf73afe
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Ocean
+        guid: ac77a5c9b9c542489acd41ace589fdef
+        id: 3802555985
+        PathAndIcons:
+        - ElementName: Ocean
+          ObjectType: 8
+      - name: Twinkleland
+        guid: 711f5c499cf2344dbbab97f4c86a2e7b
+        id: 3245747868
+        PathAndIcons:
+        - ElementName: Twinkleland
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 9a8b3522328c11409a091c76fae2f3a0
+    GuidInternal: 
+    m_lastTime: -8585935061715077063
+    List:
+    - name: Footsteps
+      guid: 4b94103a4f3b5b4892aeb5501159c828
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 11
+      Path: Default Work Unit\Footsteps
+      values:
+      - name: Grass
+        guid: ecdd2a524d701a4fb988be8e677a6072
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Hellstone
+        guid: 1adb6f66ea53c94cad7f0c05221ec9ea
+        id: 874135407
+        PathAndIcons:
+        - ElementName: Hellstone
+          ObjectType: 10
+      - name: Slime
+        guid: ba95c24c6d80eb4dbb8bd1ff5ae5df8f
+        id: 3803999823
+        PathAndIcons:
+        - ElementName: Slime
+          ObjectType: 10
+      - name: Water
+        guid: 412248bdc2bd0d43a2a6cc5dd5deeb65
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Water
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a6b5fdc51ecb124eb8f8916bf57ed886
+    GuidInternal: 
+    m_lastTime: -8585935720000795081
+    List: []
+  ExpandedItems:
+  - /CMP407 Showcase_WwiseProject
+  - /CMP407 Showcase_WwiseProject/Events
+  - /CMP407 Showcase_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

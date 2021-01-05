@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1123068841	beep			\Default Work Unit\beep	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3081681566	GunSound			\Default Work Unit\GunSound	
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	874135407	Hellstone	Footsteps			
+	2654748154	Water	Footsteps			
+	3803999823	Slime	Footsteps			
+	4248645337	Grass	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1050300945	AreaOfMap			\Default Work Unit\AreaOfMap	
+
+State	ID	Name	State Group			Notes
+	748895195	None	AreaOfMap			
+	3245747868	Twinkleland	AreaOfMap			
+	3632828376	Hell	AreaOfMap			
+	3802555985	Ocean	AreaOfMap			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21318143	splishsplash	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\splishsplash_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\splishsplash		21329
+	51073327	Hell	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\Hell_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Environments\Hell\Hell\Hell		2822464
+	214961780	pretty_twinkles	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\pretty_twinkles_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Environments\TwinkleLand\pretty_twinkles\pretty_twinkles		5080384
+	335966540	GunSound	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\GunSound_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\GunSound		13923
+	368034323	splashsplash2	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\splashsplash2_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\splashsplash2		14511
+	450088547	Slime	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\step_in_slime_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Slime		4708
+	530969690	toast_crunch	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\toast_crunch_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\toast_crunch		5471
+	576961732	Plonk	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\footsteps1_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Plonk		1083
+	636237040	Underwater	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\Underwater_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Environments\Underwater\Underwater_01\Underwater		1693504
+	872131484	baaaack it up	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\baaaack it up_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\baaaack it up		3338
+	956594088	splishsplash3	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\splishsplash3_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Water\splishsplash3		14480
+	1053213914	hellstone	C:\Users\Lloyd\Documents\MEGA\Documents\University Final Projects\CMP407\CMP407 Showcase\CMP407 Showcase_WwiseProject\.cache\Windows\SFX\hellstone_DA1DD2F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\hellstone		2886
+
